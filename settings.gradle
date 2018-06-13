@@ -1,3 +1,4 @@
 rootProject.name = 'spring-examples'
 include 'di'
+include 'spring-boot-example'
 
