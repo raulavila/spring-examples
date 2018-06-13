@@ -1,0 +1,51 @@
+.project
+.classpath
+.bash_profile
+
+# Intellij
+.idea/
+*.iml
+classes/
+.settings
+
+# File-based project format:
+*.iws
+*.ipr
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Gradle
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# Compiled Kotlin
+/e2e/out
+build/
+
+# npm
+npm-debug.log.*
+node_modules/
+!ui-framework/**/build/
+
+*.retry
+
+ui-server
+ui/out
